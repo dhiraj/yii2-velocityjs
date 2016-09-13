@@ -1,0 +1,42 @@
+{
+  "name": "dhiraj/yii2-velocityjs",
+  "description": "Asset Bundle for Yii2 with Velocity.js",
+  "keywords": [
+    "yii",
+    "jquery",
+    "velocity",
+    "asset",
+    "bundle"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/dhiraj/yii2-velocityjs/issues",
+    "source": "https://github.com/dhiraj/yii2-velocityjs"
+  },
+  "authors": [
+    {
+      "name": "Dhiraj Gupta",
+      "email": "dhiraj@traversient.com",
+      "homepage": "http://traversient.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+
+    "yiisoft/yii2": "2.0.*",
+    "bower-asset/velocity": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "traversient\\yii\\velocityjs\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
